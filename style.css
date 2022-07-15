@@ -1,0 +1,46 @@
+
+
+body { 
+padding: 0;
+margin: 0;
+border: 0;
+overflow: hidden;
+}
+
+.container {
+display: flex;
+
+}
+.backgroundImage { 
+
+    height: 100vh;
+    width: 34%;
+}
+
+
+.submitPage { 
+
+background-color: #EFEFEF;    
+height: 100vh;
+width: 66%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.header { 
+font-size: 2rem;
+
+width: 80%;
+}
+
+.submitSection {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: inset;
+    width: 100%;
+    height: 40%;
+    background: #F9F9F9;
+}
