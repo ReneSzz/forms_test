@@ -40,6 +40,7 @@ font-weight: 900;
 
 .submitSection {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 10%;
@@ -49,4 +50,20 @@ font-weight: 900;
     height: 40%;
     background: #F9F9F9;
     font-weight: 700;
+}
+.formStyle {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formInputs
+{ 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 50vh;
+    
 }
