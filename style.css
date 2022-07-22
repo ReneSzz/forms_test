@@ -34,9 +34,10 @@ align-items: center;
 
 
 .header { 
-font-size: 1.85rem;
+padding-top: 10%;
+font-size: 1.7rem;
 width: 65%;
-margin-left: -10%;
+margin-left: -12%;
 margin-right: 15%;
 margin-top: 5%;
 font-weight: 700;
@@ -69,7 +70,7 @@ margin-left: 3rem;
 .submitHeader { 
 
     margin-bottom: 3rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 700;
 } 
 
