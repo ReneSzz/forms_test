@@ -90,7 +90,7 @@ margin-left: 3rem;
 input {
     height: 1.5rem;
     width: 20rem;
-    border-color: lightgrey;
+    border-color: #E5E7EB;
     border-radius: 3px;
     border-width: 2px;
     opacity: 96%;
@@ -117,6 +117,7 @@ font-weight: 400;
 
 .button2:hover {
     cursor: pointer;
+    transform: scale(1.05);
 }
 .signup{ 
     padding-top: 2%;
@@ -128,4 +129,20 @@ font-weight: 400;
     color: #5F7161;
     font-weight: 900;
     font-size: 1rem;
+}
+
+.login:hover{ 
+    cursor: pointer;
+    color: #5f7169;
+}
+
+
+input:focus{
+outline: 0;
+border: 2px solid blue;  
+}
+.error
+{
+    outline: 0;
+    border: 2px solid #ea6e01;   
 }
