@@ -139,10 +139,19 @@ font-weight: 400;
 
 input:focus{
 outline: 0;
-border: 2px solid blue;  
+border: 2px solid cornflowerblue;  
 }
 .error
 {
     outline: 0;
-    border: 2px solid #ea6e01;   
+    border: 2px solid red;   
+}
+
+
+
+#errorText { 
+
+    color: red;
+    font-size: 0.7rem;
+    display: none;
 }
