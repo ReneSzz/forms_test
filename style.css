@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+:root {
 
+    --accentColor: red; 
+
+}
 body { 
 padding: 0;
 margin: 0;
@@ -71,10 +75,13 @@ margin-left: 3rem;
 .submitHeader { 
 
     margin-bottom: 3rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 700;
 } 
-
+#subHeader { 
+   
+    font-size: 1.5rem;
+}
 
 .formInputs
 { 
@@ -92,7 +99,7 @@ input {
     width: 20rem;
     border-color: #E5E7EB;
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 1px;
     opacity: 96%;
 }
 
@@ -139,19 +146,19 @@ font-weight: 400;
 
 input:focus{
 outline: 0;
-border: 2px solid cornflowerblue;  
+border: 1px solid cornflowerblue;  
 }
 .error
 {
     outline: 0;
-    border: 2px solid red;   
+    border: 1px solid var(--accentColor);   
 }
 
 
 
 #errorText { 
 
-    color: red;
+    color: var(--accentColor);
     font-size: 0.7rem;
     display: none;
 }
